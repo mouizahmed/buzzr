@@ -1,6 +1,6 @@
 //
 //  ContentView.swift
-//  buzzr
+//  app
 //
 //  Created by M . on 2025-05-14.
 //

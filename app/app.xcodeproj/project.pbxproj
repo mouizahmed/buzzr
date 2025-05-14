@@ -7,23 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		8453EBEE2DD5475F0078AE67 /* buzzrApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8453EBED2DD5475F0078AE67 /* buzzrApp.swift */; };
-		8453EBF02DD5475F0078AE67 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8453EBEF2DD5475F0078AE67 /* ContentView.swift */; };
-		8453EBF22DD547610078AE67 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8453EBF12DD547610078AE67 /* Assets.xcassets */; };
-		8453EBF52DD547610078AE67 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8453EBF42DD547610078AE67 /* Preview Assets.xcassets */; };
+		8453EC092DD54C590078AE67 /* appApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8453EC082DD54C590078AE67 /* appApp.swift */; };
+		8453EC0B2DD54C590078AE67 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8453EC0A2DD54C590078AE67 /* ContentView.swift */; };
+		8453EC0D2DD54C620078AE67 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8453EC0C2DD54C620078AE67 /* Assets.xcassets */; };
+		8453EC102DD54C620078AE67 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8453EC0F2DD54C620078AE67 /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		8453EBEA2DD5475F0078AE67 /* buzzr.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = buzzr.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		8453EBED2DD5475F0078AE67 /* buzzrApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = buzzrApp.swift; sourceTree = "<group>"; };
-		8453EBEF2DD5475F0078AE67 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		8453EBF12DD547610078AE67 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		8453EBF42DD547610078AE67 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		8453EBFB2DD549DD0078AE67 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		8453EC052DD54C590078AE67 /* app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = app.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8453EC082DD54C590078AE67 /* appApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = appApp.swift; sourceTree = "<group>"; };
+		8453EC0A2DD54C590078AE67 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		8453EC0C2DD54C620078AE67 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8453EC0F2DD54C620078AE67 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		8453EBE72DD5475F0078AE67 /* Frameworks */ = {
+		8453EC022DD54C590078AE67 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -33,38 +32,37 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		8453EBE12DD5475F0078AE67 = {
+		8453EBFC2DD54C590078AE67 = {
 			isa = PBXGroup;
 			children = (
-				8453EBFB2DD549DD0078AE67 /* README.md */,
-				8453EBEC2DD5475F0078AE67 /* buzzr */,
-				8453EBEB2DD5475F0078AE67 /* Products */,
+				8453EC072DD54C590078AE67 /* app */,
+				8453EC062DD54C590078AE67 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		8453EBEB2DD5475F0078AE67 /* Products */ = {
+		8453EC062DD54C590078AE67 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				8453EBEA2DD5475F0078AE67 /* buzzr.app */,
+				8453EC052DD54C590078AE67 /* app.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		8453EBEC2DD5475F0078AE67 /* buzzr */ = {
+		8453EC072DD54C590078AE67 /* app */ = {
 			isa = PBXGroup;
 			children = (
-				8453EBED2DD5475F0078AE67 /* buzzrApp.swift */,
-				8453EBEF2DD5475F0078AE67 /* ContentView.swift */,
-				8453EBF12DD547610078AE67 /* Assets.xcassets */,
-				8453EBF32DD547610078AE67 /* Preview Content */,
+				8453EC082DD54C590078AE67 /* appApp.swift */,
+				8453EC0A2DD54C590078AE67 /* ContentView.swift */,
+				8453EC0C2DD54C620078AE67 /* Assets.xcassets */,
+				8453EC0E2DD54C620078AE67 /* Preview Content */,
 			);
-			path = buzzr;
+			path = app;
 			sourceTree = "<group>";
 		};
-		8453EBF32DD547610078AE67 /* Preview Content */ = {
+		8453EC0E2DD54C620078AE67 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				8453EBF42DD547610078AE67 /* Preview Assets.xcassets */,
+				8453EC0F2DD54C620078AE67 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -72,39 +70,39 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		8453EBE92DD5475F0078AE67 /* buzzr */ = {
+		8453EC042DD54C590078AE67 /* app */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8453EBF82DD547610078AE67 /* Build configuration list for PBXNativeTarget "buzzr" */;
+			buildConfigurationList = 8453EC132DD54C620078AE67 /* Build configuration list for PBXNativeTarget "app" */;
 			buildPhases = (
-				8453EBE62DD5475F0078AE67 /* Sources */,
-				8453EBE72DD5475F0078AE67 /* Frameworks */,
-				8453EBE82DD5475F0078AE67 /* Resources */,
+				8453EC012DD54C590078AE67 /* Sources */,
+				8453EC022DD54C590078AE67 /* Frameworks */,
+				8453EC032DD54C590078AE67 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = buzzr;
-			productName = buzzr;
-			productReference = 8453EBEA2DD5475F0078AE67 /* buzzr.app */;
+			name = app;
+			productName = app;
+			productReference = 8453EC052DD54C590078AE67 /* app.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		8453EBE22DD5475F0078AE67 /* Project object */ = {
+		8453EBFD2DD54C590078AE67 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1540;
 				LastUpgradeCheck = 1540;
 				TargetAttributes = {
-					8453EBE92DD5475F0078AE67 = {
+					8453EC042DD54C590078AE67 = {
 						CreatedOnToolsVersion = 15.4;
 					};
 				};
 			};
-			buildConfigurationList = 8453EBE52DD5475F0078AE67 /* Build configuration list for PBXProject "buzzr" */;
+			buildConfigurationList = 8453EC002DD54C590078AE67 /* Build configuration list for PBXProject "app" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -112,42 +110,42 @@
 				en,
 				Base,
 			);
-			mainGroup = 8453EBE12DD5475F0078AE67;
-			productRefGroup = 8453EBEB2DD5475F0078AE67 /* Products */;
+			mainGroup = 8453EBFC2DD54C590078AE67;
+			productRefGroup = 8453EC062DD54C590078AE67 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				8453EBE92DD5475F0078AE67 /* buzzr */,
+				8453EC042DD54C590078AE67 /* app */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		8453EBE82DD5475F0078AE67 /* Resources */ = {
+		8453EC032DD54C590078AE67 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8453EBF52DD547610078AE67 /* Preview Assets.xcassets in Resources */,
-				8453EBF22DD547610078AE67 /* Assets.xcassets in Resources */,
+				8453EC102DD54C620078AE67 /* Preview Assets.xcassets in Resources */,
+				8453EC0D2DD54C620078AE67 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		8453EBE62DD5475F0078AE67 /* Sources */ = {
+		8453EC012DD54C590078AE67 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8453EBF02DD5475F0078AE67 /* ContentView.swift in Sources */,
-				8453EBEE2DD5475F0078AE67 /* buzzrApp.swift in Sources */,
+				8453EC0B2DD54C590078AE67 /* ContentView.swift in Sources */,
+				8453EC092DD54C590078AE67 /* appApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		8453EBF62DD547610078AE67 /* Debug */ = {
+		8453EC112DD54C620078AE67 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -210,7 +208,7 @@
 			};
 			name = Debug;
 		};
-		8453EBF72DD547610078AE67 /* Release */ = {
+		8453EC122DD54C620078AE67 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -266,14 +264,14 @@
 			};
 			name = Release;
 		};
-		8453EBF92DD547610078AE67 /* Debug */ = {
+		8453EC142DD54C620078AE67 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"buzzr/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"app/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -286,7 +284,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = buzzr.buzzr;
+				PRODUCT_BUNDLE_IDENTIFIER = buzzr.app;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -294,14 +292,14 @@
 			};
 			name = Debug;
 		};
-		8453EBFA2DD547610078AE67 /* Release */ = {
+		8453EC152DD54C620078AE67 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"buzzr/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"app/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -314,7 +312,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = buzzr.buzzr;
+				PRODUCT_BUNDLE_IDENTIFIER = buzzr.app;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -325,25 +323,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		8453EBE52DD5475F0078AE67 /* Build configuration list for PBXProject "buzzr" */ = {
+		8453EC002DD54C590078AE67 /* Build configuration list for PBXProject "app" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8453EBF62DD547610078AE67 /* Debug */,
-				8453EBF72DD547610078AE67 /* Release */,
+				8453EC112DD54C620078AE67 /* Debug */,
+				8453EC122DD54C620078AE67 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8453EBF82DD547610078AE67 /* Build configuration list for PBXNativeTarget "buzzr" */ = {
+		8453EC132DD54C620078AE67 /* Build configuration list for PBXNativeTarget "app" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8453EBF92DD547610078AE67 /* Debug */,
-				8453EBFA2DD547610078AE67 /* Release */,
+				8453EC142DD54C620078AE67 /* Debug */,
+				8453EC152DD54C620078AE67 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 8453EBE22DD5475F0078AE67 /* Project object */;
+	rootObject = 8453EBFD2DD54C590078AE67 /* Project object */;
 }
